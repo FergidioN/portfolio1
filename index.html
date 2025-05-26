@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="text-[#ffffff] bg-[#111111] font-[Poppins]">
+    <!-- nav start   -->
+    <nav class="flex justify-between px-4 py-2">
+      <!-- kiri -->
+      <div class="nav-logo items-center">
+        <img class="h-16" src="Logo.png" alt="Logo" />
+      </div>
+      <!-- kanan -->
+      <div class="nav-list flex items-center">
+        <ul class="flex gap-3">
+          <li class="hover:text-[#FFC44E] hover:text-lg duration-500 ease-out">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:text-[#FFC44E] hover:text-lg duration-500 ease-out">
+            <a href="#">Portofolio</a>
+          </li>
+          <li class="hover:text-[#FFC44E] hover:text-lg duration-500 ease-out">
+            <a href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <hr />
+    <div class="hero py-2 h-screen px-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="kiri max-w-md">
+          <h1 class="text-[32px]">Portofolio Fergidion</h1>
+          <p class="text-[12px]">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam non,
+            doloribus officiis omnis optio eum aliquid suscipit incidunt
+            blanditiis possimus!
+          </p><br>
+          <div class="button">
+            <a href="#" class="px-4 rounded-md py-2 bg-[#FFC44E] hover:py-3 duration-200">Contact Me</a>
+            <a href="#" class="px-4 rounded-md py-2 border border-[#FFC44E] hover:py-3 duration-200">Portofolio</a>
+          </div>
+        </div>
+        <div class="h-screen flex items-center justify-center mx-auto">
+          <img src="Logo.png" class="w-64" alt="Logo" />
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="portofolio h-screen bg-[#181818] px-4 py-4" id="portofolio">
+      <div class="judul px-4 rounded-md py-2 border border-[#FFC44E] hover:py-3 duration-200 max-w-md text-center">
+        <h1 class="text-[14px] font-bold">
+          Portofolio
+        </h1>
+      </div>
+      <div class="isi w-full flex justify-center gap-3 h-screen items-center">
+  <div class="atas grid grid-cols-2 gap-4">
+    <!-- Ulangi untuk setiap gambar -->
+    <div class="relative w-48 h-48 group overflow-hidden rounded shadow-lg">
+      <img src="Logo.png" alt="" class="w-full h-full object-cover" />
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-t from-[#181818] to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center p-4">
+        <a href="#" class="bg-white text-black px-4 py-1 rounded text-sm font-semibold">Lihat</a>
+      </div>
+    </div>
+
+    <div class="relative w-48 h-48 group overflow-hidden rounded shadow-lg">
+      <img src="Logo.png" alt="" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[#181818] to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center p-4">
+        <a href="#" class="bg-white text-black px-4 py-1 rounded text-sm font-semibold">Lihat</a>
+      </div>
+    </div>
+
+    <div class="relative w-48 h-48 group overflow-hidden rounded shadow-lg">
+      <img src="Logo.png" alt="" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[#181818] to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center p-4">
+        <a href="#" class="bg-white text-black px-4 py-1 rounded text-sm font-semibold">Lihat</a>
+      </div>
+    </div>
+
+    <div class="relative w-48 h-48 group overflow-hidden rounded shadow-lg">
+      <img src="Logo.png" alt="" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[#181818] to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end justify-center p-4">
+        <a href="#" class="bg-white text-black px-4 py-1 rounded text-sm font-semibold">Lihat</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <hr>
+    <div class="footer py-8">
+      <div class="text-center">
+        <h1 class="text-[48px]">Ready To Get Started</h1>
+        <p>take the first step in your bussiness</p> <br>
+        <a href="#" class="px-4 py-2 rounded-md border border-[#FFC44E] hover:px-6 duration-300 ease-out">Lets Order</a>
+      </div>
+    </div>
+  </body>
+</html>
